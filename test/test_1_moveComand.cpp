@@ -1,0 +1,37 @@
+#define BOOST_TEST_DYN_LINK
+#define BOOST_TEST_MODULE MyStarWars
+#include <boost/test/unit_test.hpp>
+
+#include <stdint-gcc.h>
+#include "../inc/MoveComand.h"
+#include "../inc/MySpaceship.h"
+#include "../inc/MyVector.h"
+
+
+
+BOOST_AUTO_TEST_SUITE(test1)
+
+BOOST_AUTO_TEST_CASE(test1)
+{
+    MyVector loc;
+
+    loc.set_coordinates(0, 12);
+    loc.set_coordinates(1, 5);
+
+    MyVector vel;
+
+    vel.set_coordinates(0, -7);
+    vel.set_coordinates(1, 3);
+
+    MySpaceship* spaceship = new MySpaceship(&loc, &vel);
+    MoveComand moveComand;
+
+    moveComand.setMoveObj((IMovingObject*) spaceship);
+    moveComand.execute();
+
+
+    BOOST_CHECK_EQUAL(spaceship->getLocation()->get_coordinates(0), 5);
+    BOOST_CHECK_EQUAL(spaceship->getLocation()->get_coordinates(1), 8);
+}
+
+BOOST_AUTO_TEST_SUITE_END()
