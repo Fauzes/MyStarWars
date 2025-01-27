@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/src",
+  "command": "/usr/bin/g++  -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/MyStarWars.dir/MoveComand.cpp.o -c /home/dima/Projects/edu/MyStarWars/src/MoveComand.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/src/MoveComand.cpp",
+  "output": "build/src/CMakeFiles/MyStarWars.dir/MoveComand.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/src",
+  "command": "/usr/bin/g++  -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/MyStarWars.dir/MyVector.cpp.o -c /home/dima/Projects/edu/MyStarWars/src/MyVector.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/src/MyVector.cpp",
+  "output": "build/src/CMakeFiles/MyStarWars.dir/MyVector.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/src",
+  "command": "/usr/bin/g++  -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/MyStarWars.dir/MySpaceship.cpp.o -c /home/dima/Projects/edu/MyStarWars/src/MySpaceship.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/src/MySpaceship.cpp",
+  "output": "build/src/CMakeFiles/MyStarWars.dir/MySpaceship.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/src",
+  "command": "/usr/bin/g++  -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/MyStarWars.dir/IMovingObject.cpp.o -c /home/dima/Projects/edu/MyStarWars/src/IMovingObject.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/src/IMovingObject.cpp",
+  "output": "build/src/CMakeFiles/MyStarWars.dir/IMovingObject.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/src",
+  "command": "/usr/bin/g++  -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/MyStarWars.dir/MyAngle.cpp.o -c /home/dima/Projects/edu/MyStarWars/src/MyAngle.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/src/MyAngle.cpp",
+  "output": "build/src/CMakeFiles/MyStarWars.dir/MyAngle.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/src",
+  "command": "/usr/bin/g++  -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/MyStarWars.dir/IRotatingObject.cpp.o -c /home/dima/Projects/edu/MyStarWars/src/IRotatingObject.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/src/IRotatingObject.cpp",
+  "output": "build/src/CMakeFiles/MyStarWars.dir/IRotatingObject.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/src",
+  "command": "/usr/bin/g++  -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/MyStarWars.dir/RotateComand.cpp.o -c /home/dima/Projects/edu/MyStarWars/src/RotateComand.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/src/RotateComand.cpp",
+  "output": "build/src/CMakeFiles/MyStarWars.dir/RotateComand.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/test",
+  "command": "/usr/bin/g++ -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/test1.dir/test_1_moveComand.cpp.o -c /home/dima/Projects/edu/MyStarWars/test/test_1_moveComand.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/test/test_1_moveComand.cpp",
+  "output": "build/test/CMakeFiles/test1.dir/test_1_moveComand.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/test",
+  "command": "/usr/bin/g++ -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/test2.dir/test_2_moveComand.cpp.o -c /home/dima/Projects/edu/MyStarWars/test/test_2_moveComand.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/test/test_2_moveComand.cpp",
+  "output": "build/test/CMakeFiles/test2.dir/test_2_moveComand.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/test",
+  "command": "/usr/bin/g++ -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/test3.dir/test_3_moveComand.cpp.o -c /home/dima/Projects/edu/MyStarWars/test/test_3_moveComand.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/test/test_3_moveComand.cpp",
+  "output": "build/test/CMakeFiles/test3.dir/test_3_moveComand.cpp.o"
+},
+{
+  "directory": "/home/dima/Projects/edu/MyStarWars/build/build/test",
+  "command": "/usr/bin/g++ -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/home/dima/Projects/edu/MyStarWars/inc -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/test4.dir/test_4_rotateComand.cpp.o -c /home/dima/Projects/edu/MyStarWars/test/test_4_rotateComand.cpp",
+  "file": "/home/dima/Projects/edu/MyStarWars/test/test_4_rotateComand.cpp",
+  "output": "build/test/CMakeFiles/test4.dir/test_4_rotateComand.cpp.o"
+}
+]
